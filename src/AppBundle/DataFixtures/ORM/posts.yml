@@ -1,0 +1,4 @@
+AppBundle\Entity\Post:
+    user{1..10}:
+        title: <sentence()>
+        contents: <paragraph(3)>
