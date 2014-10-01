@@ -1,0 +1,28 @@
+diff --git a/app/Resources/views/Post/index.html.twig b/app/Resources/views/Post/index.html.twig
+index c2f40bd..dd995eb 100644
+--- a/app/Resources/views/Post/index.html.twig
++++ b/app/Resources/views/Post/index.html.twig
+@@ -6,7 +6,9 @@
+ <ul>
+     {% for post in posts %}
+         <li>
+-            {{ post.title }}
++            <a href="{{ path('post_show', { 'id': post.id }) }}">
++                {{ post.title }}
++            </a>
+         </li>
+     {% endfor %}
+ </ul>
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 72a15a9..fa89ac2 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -23,7 +23,7 @@ class PostController extends Controller
+     }
+ 
+     /**
+-     * @Route("/posts/{id}")
++     * @Route("/posts/{id}", name="post_show")
+      */
+     public function showAction(Post $post)
+     {

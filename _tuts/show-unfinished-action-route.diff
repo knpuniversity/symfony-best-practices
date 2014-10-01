@@ -1,0 +1,17 @@
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 7ad57c9..01ca525 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -20,4 +20,12 @@ class PostController extends Controller
+             'posts' => $posts,
+         ));
+     }
++
++    /**
++     * @Route("/posts/{id}")
++     */
++    public function showAction($id)
++    {
++        die('Mr Testers');
++    }
+ }

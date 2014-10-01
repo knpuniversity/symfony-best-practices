@@ -1,0 +1,30 @@
+diff --git a/app/Resources/views/Post/show.html.twig b/app/Resources/views/Post/show.html.twig
+new file mode 100644
+index 0000000..ba4bf29
+--- /dev/null
++++ b/app/Resources/views/Post/show.html.twig
+@@ -0,0 +1,10 @@
++{# app/Resources/views/Post/show.html.twig #}
++{% extends 'base.html.twig' %}
++
++{% block body %}
++<h1>{{ post.title }}</h1>
++
++<div>
++    {{ post.contents }}
++</div>
++{% endblock %}
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 5a6da2d..72a15a9 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -27,6 +27,8 @@ class PostController extends Controller
+      */
+     public function showAction(Post $post)
+     {
+-        die('Mr Testers');
++        return $this->render('Post/show.html.twig', array(
++            'post' => $post
++        ));
+     }
+ }

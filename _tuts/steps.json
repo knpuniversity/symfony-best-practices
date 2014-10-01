@@ -19,7 +19,32 @@
             "id": "controller-finish-routing",
             "name": "Controller: Finish routing",
             "description": null
+        },
+        {
+            "id": "controller-finish-the-posts-page",
+            "name": "Controller: Finish the \/posts page",
+            "description": null
+        },
+        {
+            "id": "show-unfinished-action-route",
+            "name": "Show: Unfinished action + Route",
+            "description": null
+        },
+        {
+            "id": "show-paramconverter",
+            "name": "Show: ParamConverter",
+            "description": null
+        },
+        {
+            "id": "show-render-template",
+            "name": "Show: Render template",
+            "description": null
+        },
+        {
+            "id": "show-add-a-name-and-link",
+            "name": "Show: Add a name and link",
+            "description": null
         }
     ],
-    "sha": "f1c40dba2df7e5fa9179b84aaf299fdb03e48954"
+    "sha": "0fc1f643acf5bb57d4f7742bbd864629adeecd4c"
 }

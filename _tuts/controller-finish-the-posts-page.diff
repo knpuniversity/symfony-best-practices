@@ -1,0 +1,38 @@
+diff --git a/app/Resources/views/Post/index.html.twig b/app/Resources/views/Post/index.html.twig
+new file mode 100644
+index 0000000..c2f40bd
+--- /dev/null
++++ b/app/Resources/views/Post/index.html.twig
+@@ -0,0 +1,13 @@
++{% extends 'base.html.twig' %}
++
++{% block body %}
++<h1>POSTS!</h1>
++
++<ul>
++    {% for post in posts %}
++        <li>
++            {{ post.title }}
++        </li>
++    {% endfor %}
++</ul>
++{% endblock %}
+\ No newline at end of file
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 4696e99..7ad57c9 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -12,6 +12,12 @@ class PostController extends Controller
+      */
+     public function indexAction()
+     {
+-        die('it works!');
++        $posts = $this->getDoctrine()
++            ->getRepository('AppBundle:Post')
++            ->findAll();
++
++        return $this->render('Post/index.html.twig', array(
++            'posts' => $posts,
++        ));
+     }
+ }

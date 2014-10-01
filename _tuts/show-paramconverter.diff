@@ -1,0 +1,21 @@
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 01ca525..5a6da2d 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -4,6 +4,7 @@ namespace AppBundle\Controller;
+ 
+ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
++use AppBundle\Entity\Post;
+ 
+ class PostController extends Controller
+ {
+@@ -24,7 +25,7 @@ class PostController extends Controller
+     /**
+      * @Route("/posts/{id}")
+      */
+-    public function showAction($id)
++    public function showAction(Post $post)
+     {
+         die('Mr Testers');
+     }
