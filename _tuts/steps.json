@@ -16,8 +16,8 @@
             "description": null
         },
         {
-            "id": "gits",
-            "name": "gits",
+            "id": "controller-finish-routing",
+            "name": "Controller: Finish routing",
             "description": null
         }
     ],
