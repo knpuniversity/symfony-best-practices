@@ -1,0 +1,12 @@
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+index 35f18fb..4696e99 100644
+--- a/src/AppBundle/Controller/PostController.php
++++ b/src/AppBundle/Controller/PostController.php
+@@ -3,6 +3,7 @@
+ namespace AppBundle\Controller;
+ 
+ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
++use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+ 
+ class PostController extends Controller
+ {

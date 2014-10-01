@@ -1,0 +1,25 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "add-routing-import",
+            "name": "Add routing import",
+            "description": null
+        },
+        {
+            "id": "controller-add-method-with-route",
+            "name": "Controller: Add method with @Route",
+            "description": null
+        },
+        {
+            "id": "gits",
+            "name": "gits",
+            "description": null
+        }
+    ],
+    "sha": "f1c40dba2df7e5fa9179b84aaf299fdb03e48954"
+}

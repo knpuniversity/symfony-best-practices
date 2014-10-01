@@ -1,0 +1,22 @@
+diff --git a/src/AppBundle/Controller/PostController.php b/src/AppBundle/Controller/PostController.php
+new file mode 100644
+index 0000000..35f18fb
+--- /dev/null
++++ b/src/AppBundle/Controller/PostController.php
+@@ -0,0 +1,16 @@
++<?php
++
++namespace AppBundle\Controller;
++
++use Symfony\Bundle\FrameworkBundle\Controller\Controller;
++
++class PostController extends Controller
++{
++    /**
++     * @Route("/posts")
++     */
++    public function indexAction()
++    {
++        die('it works!');
++    }
++}

@@ -1,0 +1,8 @@
+diff --git a/app/config/routing.yml b/app/config/routing.yml
+index e69de29..0cd8665 100644
+--- a/app/config/routing.yml
++++ b/app/config/routing.yml
+@@ -0,0 +1,3 @@
++app_bundle_annotations:
++    resource: "@AppBundle/Controller"
++    type: annotation
