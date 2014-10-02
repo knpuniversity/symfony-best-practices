@@ -2,7 +2,7 @@ Small and Fast with the @Route and @ParamConverter Annotations
 ==============================================================
 
 It's already common to see annotations used for Doctrine entities and validation.
-But honestly, most project still under-use them. And that's a shame, because
+But honestly, most projects still under-use them. And that's a shame, because
 we can build things faster and with clearer code if we use them.
 
 Setting up the Project
@@ -30,7 +30,7 @@ Let's also boot up the built-in web server and try things out by going to
 Annotation Routing
 ------------------
 
-We'll start by building a page that lists all blog post. *Normally* we'd
+We'll start by building a page that lists all blog posts. *Normally* we'd
 create a new route in a YAML file. Instead open up ``app/config/routing.yml``
 and add a little import entry:
 
@@ -104,7 +104,7 @@ the ``Route`` import line we need to add::
     }
 
 It should work now, so let's go directly to ``http://localhost:8000/posts``
-in the browser.
+in your browser.
 
 Rendering the Template
 ----------------------
@@ -152,12 +152,12 @@ them out:
     </ul>
     {% endblock %}
 
-I'll refresh to prove I'm not lying about all of this.
+I'm refreshing to prove the I'm not lying.
 
 Page 2 and the ParamConverter
 -----------------------------
 
-Let's see how fast we can create a page to show *one* Post. I'll add a ``showAction``
+Let's see how fast we can create a page to show *one* Post. I'm adding a ``showAction``
 and an annotation route with a ``/posts/{id}`` path::
 
     // src/AppBundle/Controller/PostController.php
@@ -228,7 +228,7 @@ ugly, I'd rather just query manually if it doesn't work.
 Route Name
 ----------
 
-To link the pages together, the route needs a name, so let's give it one::
+To link the pages together, the route needs a name, so let's give it the name post_show::
 
     // src/AppBundle/Controller/PostController.php
     // ...
