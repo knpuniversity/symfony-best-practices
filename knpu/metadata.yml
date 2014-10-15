@@ -10,7 +10,7 @@ illustration: best-practices.png
 priority: 9
 hasCodeDownload: 0
 tags:
-    - { name: php }
+    - { name: symfony }
 
 chapters:
     best-practices:
