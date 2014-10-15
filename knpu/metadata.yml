@@ -2,19 +2,15 @@ title:  Symfony Best Practices
 price:  0
 length: 8:42
 summary: |
-    
-    
-    
+    In this screencast, I'll show you some of the most parts
+    of Symfony's new best practices. The aim is to keep our
+    applications as simple as possible by avoiding unnecessary
+    files and extra directories. I think you'll like it.
 
 illustration: best-practices.png
-priority: 9
-hasCodeDownload: 0
-tags:
-    - { name: symfony }
 
 chapters:
-    best-practices:
-        title:      Symfony Best Practices
+    route-templates:
         is_free:    true
         length:     8:42
         video_key:  8vopj0s6wh

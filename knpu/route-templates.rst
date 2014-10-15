@@ -1,5 +1,5 @@
-Small and Fast with the @Route and @ParamConverter Annotations
-==============================================================
+Fast and Simple with the @Route and @ParamConverter Annotations
+===============================================================
 
 It's already common to see annotations used for Doctrine entities and validation.
 But honestly, most projects still under-use them. And that's a shame, because
