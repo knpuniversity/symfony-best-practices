@@ -1,1 +1,20 @@
- 
+title:  Symfony Best Practices
+price:  0
+length: 8:42
+summary: |
+    
+    
+    
+
+illustration: best-practices.png
+priority: 9
+hasCodeDownload: 0
+tags:
+    - { name: php }
+
+chapters:
+    best-practices:
+        title:      Symfony Best Practices
+        is_free:    true
+        length:     8:42
+        video_key:  8vopj0s6wh
