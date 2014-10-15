@@ -5,7 +5,7 @@ summary: |
     In this screencast, I'll show you some of the most parts
     of Symfony's new best practices. The aim is to keep our
     applications as simple as possible by avoiding unnecessary
-    files and extra directories. I think you'll like it.
+    files and extra directories. I think you'll like it!
 
 illustration: best-practices.png
 
