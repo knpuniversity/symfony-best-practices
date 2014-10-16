@@ -1,5 +1,4 @@
 title:  Symfony Best Practices
-price:  0
 length: 8:42
 summary: |
     I want to show you some of my favorite parts of the new
@@ -13,5 +12,4 @@ illustration: best-practices.png
 chapters:
     route-annotation-templates:
         is_free:    true
-        length:     8:42
         video_key:  8vopj0s6wh
