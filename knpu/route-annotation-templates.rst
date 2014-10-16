@@ -1,5 +1,5 @@
-Fast and Simple with the @Route and @ParamConverter Annotations
-===============================================================
+Symfony: Keep it Simple with @Route and Templates
+=================================================
 
 Hey Symfony world. So you probably saw that Symfony released these best practices
 and I'll admit I was partially responsible for these. But apart from that,
