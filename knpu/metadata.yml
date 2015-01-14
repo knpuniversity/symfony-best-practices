@@ -8,6 +8,7 @@ summary: |
     you'll like it :).
 
 illustration: best-practices.png
+videoDownloadExtension: mov
 
 chapters:
     route-annotation-templates:
