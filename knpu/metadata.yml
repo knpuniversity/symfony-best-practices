@@ -1,5 +1,4 @@
 title:  Symfony Best Practices
-length: 8:42
 summary: |
     I want to show you some of my favorite parts of the new
     Symfony best practices. The aim is to keep our applications
@@ -8,9 +7,8 @@ summary: |
     you'll like it :).
 
 illustration: best-practices.png
-videoDownloadExtension: mov
 
 chapters:
     route-annotation-templates:
         is_free:    true
-        video_key:  8vopj0s6wh
+        video_key:  140212859
